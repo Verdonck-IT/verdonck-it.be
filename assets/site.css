@@ -121,6 +121,20 @@ img { max-width: 100%; display: block; }
 .scope .yes h3 { color: var(--accent); }
 .scope .no h3 { color: var(--warn); }
 
+/* Goal */
+.goal { background: var(--ink); color: var(--bg); }
+.goal .eyebrow { color: var(--accent-light); }
+.goal-inner { display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start; }
+.goal-main { flex: 1 1 420px; min-width: 0; }
+.goal-title { font-size: clamp(36px, 5vw, 52px); line-height: 1.05; margin-bottom: 20px; }
+.goal-lead { color: var(--on-dark-muted); font-size: 19px; max-width: 520px; }
+.goal-quote { margin: 32px 0 0; padding: 22px 24px; background: #1C2E29; border-radius: 14px; }
+.goal-quote p { font-size: 17px; color: var(--bg); }
+.goal-points { flex: 1 1 480px; min-width: 0; display: flex; flex-wrap: wrap; gap: 20px; }
+.goal-point { flex: 1 1 220px; min-width: 0; border-top: 2px solid var(--accent-light); padding-top: 18px; }
+.goal-point h3 { font-size: 19px; margin-bottom: 8px; }
+.goal-point p { color: var(--on-dark-muted); font-size: 16px; }
+
 /* Cases */
 .case { display: flex; flex-direction: column; gap: 12px; }
 .case .client { font-size: 14px; font-weight: 600; color: var(--accent); }
