@@ -85,7 +85,7 @@ img { max-width: 100%; display: block; }
 .card-soft { background: var(--bg); border-radius: 14px; padding: 26px; }
 .card h3, .card-soft h3 { font-size: 19px; margin-bottom: 10px; }
 .card p, .card-soft p { color: var(--muted); font-size: 16px; }
-.problems > * { flex-basis: 250px; }
+.problems > * { flex-basis: 200px; }
 
 /* Offers */
 .offers { align-items: stretch; }
