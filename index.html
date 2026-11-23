@@ -1,64 +1,371 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Verdonck IT - Software op maat & advies">
-    <meta name="keywords" content="Verdonck IT, software, maatwerk, advies">
-    <link rel="canonical" href="https://verdonck-it.be">
-    <link rel="icon" type="image/png" href="favicon.ico">
-    <title>Verdonck IT</title>
-    <style>
-        body {
-            background-color: #f4f4f4;
-            font-family: 'Open Sans', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .content {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .content h1 {
-            font-size: 2em;
-            font-weight: 700;
-            margin: 0;
-        }
-
-        .content h2 {
-            font-size: 1.5em;
-            font-weight: 300;
-            margin: 0;
-        }
-
-        .content p {
-            font-size: 0.8em;
-            font-weight: 300;
-            margin-top: 2rem;
-        }
-
-        .contact-form {
-            margin-top: 2rem;
-        }
-    </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verdonck IT · Strategisch IT-advies &amp; software op maat voor KMO's</title>
+  <meta name="description" content="Een technische partner aan tafel, zonder een CTO in dienst te nemen. Onafhankelijk IT-advies, Tech Audits en software op maat voor KMO's in West-Vlaanderen.">
+  <meta name="keywords" content="Verdonck IT, fractional CTO, IT-advies, tech audit, software op maat, KMO, West-Vlaanderen, AI">
+  <link rel="canonical" href="https://verdonck-it.be/">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#1D6B57">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Verdonck IT · Strategisch IT-advies &amp; software op maat">
+  <meta property="og:description" content="Een technische partner aan tafel, zonder een CTO in dienst te nemen.">
+  <meta property="og:url" content="https://verdonck-it.be/">
+  <meta property="og:locale" content="nl_BE">
+  <meta property="og:image" content="https://verdonck-it.be/assets/ivo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Verdonck IT",
+    "url": "https://verdonck-it.be/",
+    "email": "ivo@verdonck-it.be",
+    "vatID": "BE1000339224",
+    "founder": { "@type": "Person", "name": "Ivo Verdonck", "sameAs": "https://www.linkedin.com/in/ivoverdonck" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Ichtegem", "postalCode": "8480", "addressCountry": "BE" },
+    "areaServed": "BE",
+    "description": "Strategisch IT-advies, Tech Audits en software op maat voor KMO's."
+  }
+  </script>
 </head>
 <body>
-    <div class="content">
-        <h1>Verdonck IT</h1>
-        <h2>Software op maat & advies</h2>
-        <div class="contact-form">
-            <p>Heb je een vraag of wil je graag een offerte ontvangen?<br />Laat hier je gegevens achter en ik neem zo snel mogelijk contact met je op.</p>
-            <iframe data-tally-src="https://tally.so/embed/w5k85M?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="100" frameborder="0" marginheight="0" marginwidth="0" title="Contact Verdonck IT"></iframe>
-        </div>
-        <p>Verdonck IT - BE 1000.339.224</p>
+<a class="skip" href="#main">Naar de inhoud</a>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Hoofdmenu">
+    <a href="#top" class="brand" aria-label="Verdonck IT, naar boven">
+      <span class="brand-mark" aria-hidden="true">VI</span>
+      <span class="brand-name">Verdonck IT</span>
+    </a>
+    <div class="nav-links">
+      <a href="#aanpak">Aanpak</a>
+      <a href="#formules">Formules</a>
+      <a href="#projecten">Projecten</a>
+      <a href="#over">Over mij</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://cal.com/ivo-verdonck-w8bzwq/30min" class="btn btn-dark" target="_blank" rel="noopener">Plan een kennismaking</a>
     </div>
-    <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section id="top" class="container hero">
+    <div class="hero-main">
+      <p class="eyebrow">Strategisch IT-advies &amp; software op maat voor KMO's</p>
+      <h1>Een technische partner aan tafel, zonder een CTO in dienst te nemen.</h1>
+      <p class="intro">Ik help zaakvoerders de juiste technische keuzes te maken: welke software, welke architectuur, bouwen of kopen, en waar AI echt iets oplevert. Onafhankelijk, nuchter en met 15 jaar ervaring in het bouwen van software.</p>
+      <div class="actions">
+        <a href="https://cal.com/ivo-verdonck-w8bzwq/30min" class="btn btn-primary" target="_blank" rel="noopener">Plan een gratis kennismaking (30 min)</a>
+        <a href="#formules" class="btn btn-outline">Bekijk de Tech Audit</a>
+      </div>
+    </div>
+    <aside class="help-card" aria-labelledby="help-title">
+      <h2 id="help-title">Waar ik je bij help</h2>
+      <ol class="help-list">
+        <li><span>01</span>Een technische roadmap die past bij je bedrijfsplan</li>
+        <li><span>02</span>Architectuur die mee kan groeien</li>
+        <li><span>03</span>Bouwen of kopen, en de juiste leverancier kiezen</li>
+        <li><span>04</span>AI inzetten waar het echt tijd of geld bespaart</li>
+        <li><span>05</span>Risico's in bestaande software blootleggen</li>
+      </ol>
+    </aside>
+  </section>
+
+  <!-- Herken je dit -->
+  <section class="band">
+    <div class="container section">
+      <h2 class="h2" style="margin-bottom: 40px">Herken je dit?</h2>
+      <div class="row problems">
+        <div class="card-soft">
+          <h3>Niemand overziet nog het geheel</h3>
+          <p>Je software is jarenlang meegegroeid met je bedrijf. Er zijn koppelingen, Excel-lijsten en losse tools bijgekomen, en niemand weet nog goed hoe alles samenhangt.</p>
+        </div>
+        <div class="card-soft">
+          <h3>Een dure offerte die je niet kan beoordelen</h3>
+          <p>Een leverancier stelt een groot project voor. Je wil weten of dat de juiste oplossing is, zonder het blind te moeten geloven.</p>
+        </div>
+        <div class="card-soft">
+          <h3>Iets met AI, maar wat?</h3>
+          <p>Iedereen praat erover. Jij wil weten waar het in jouw bedrijf concreet tijd of geld bespaart, en waar het vooral een hype is.</p>
+        </div>
+        <div class="card-soft">
+          <h3>Afhankelijk van één persoon</h3>
+          <p>Alles draait op één systeem of één ontwikkelaar. Valt die weg, dan staat je bedrijf stil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formules -->
+  <section id="formules" class="container section">
+    <p class="eyebrow">Formules</p>
+    <h2 class="h2">Duidelijk afgebakend, met een vaste prijs</h2>
+    <p class="lead">Je weet vooraf wat je krijgt, wanneer en wat het kost. De meeste klanten starten met een Tech Audit en beslissen daarna of ze verder willen.</p>
+    <div class="row offers">
+
+      <article class="card offer offer-featured">
+        <div class="offer-top">
+          <h3>Tech Audit</h3>
+          <span class="badge">Startpunt</span>
+        </div>
+        <p>Een helder beeld van je software, infrastructuur, kosten en risico's. Met concrete prioriteiten.</p>
+        <ul>
+          <li>Intake van een halve dag bij jou</li>
+          <li>Analyse van software, architectuur, hosting en kosten</li>
+          <li>Rapport in mensentaal, zonder jargon</li>
+          <li>Presentatie van 1 uur met volgende stappen</li>
+        </ul>
+        <div class="price">
+          <p class="amount">€ 2.950 <small>excl. btw</small></p>
+          <p class="note">Vaste prijs · doorlooptijd 2 à 3 weken</p>
+        </div>
+      </article>
+
+      <article class="card offer">
+        <div>
+          <h3>Technisch partner</h3>
+          <p class="sub">Fractional CTO</p>
+        </div>
+        <p>Een vaste technische sparringpartner voor de zaakvoerder, een vast aantal dagen per maand.</p>
+        <ul>
+          <li>Technische roadmap en architectuurkeuzes</li>
+          <li>Leveranciers en ontwikkelaars kiezen en opvolgen</li>
+          <li>Offertes en voorstellen beoordelen</li>
+          <li>Maandelijks overleg met een vaste agenda</li>
+        </ul>
+        <div class="price tiers">
+          <div class="tier"><span>2 dagen per maand</span><strong>€ 1.750</strong></div>
+          <div class="tier"><span>4 dagen per maand</span><strong>€ 3.300</strong></div>
+          <p class="note">Excl. btw · maandelijks opzegbaar</p>
+        </div>
+      </article>
+
+      <article class="card offer">
+        <div>
+          <h3>Software op maat</h3>
+          <p class="sub">Van analyse tot oplevering</p>
+        </div>
+        <p>Als standaardsoftware niet past, bouw ik een oplossing die precies aansluit bij hoe jouw bedrijf werkt.</p>
+        <ul>
+          <li>Start altijd vanuit een goedgekeurde analyse</li>
+          <li>Opgeleverd in afgebakende fases</li>
+          <li>Web, mobiel en koppelingen met je bestaande tools</li>
+          <li>Moderne technologie, versneld met AI</li>
+        </ul>
+        <div class="price">
+          <p class="amount">Prijs per fase</p>
+          <p class="note">Vastgelegd op basis van de analyse</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Aanpak -->
+  <section id="aanpak" class="band-tint">
+    <div class="container section">
+      <p class="eyebrow">Aanpak</p>
+      <h2 class="h2" style="margin-bottom: 44px">Zo verloopt een Tech Audit</h2>
+      <div class="row steps">
+        <div class="step">
+          <p class="num">1</p>
+          <h3>Kennismaking</h3>
+          <p class="meta">30 min · online · gratis</p>
+          <p>We bekijken samen je vraag. Je hoort meteen of een audit zinvol is.</p>
+        </div>
+        <div class="step">
+          <p class="num">2</p>
+          <h3>Intake</h3>
+          <p class="meta">Halve dag · bij jou</p>
+          <p>Je doelen, je systemen en de mensen die ermee werken. Ik laat vooraf weten wat ik nodig heb.</p>
+        </div>
+        <div class="step">
+          <p class="num">3</p>
+          <h3>Analyse</h3>
+          <p class="meta">1 à 2 weken · zelfstandig</p>
+          <p>Ik onderzoek software, infrastructuur, kosten en risico's. Jij hoeft niets te doen.</p>
+        </div>
+        <div class="step">
+          <p class="num">4</p>
+          <h3>Rapport &amp; presentatie</h3>
+          <p class="meta">1 uur · bij jou of online</p>
+          <p>Heldere prioriteiten: wat nu, wat later, wat niet. Jij beslist wat er gebeurt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wel / niet -->
+  <section class="container section">
+    <h2 class="h2">Wat ik wel en niet doe</h2>
+    <p class="lead" style="margin-bottom: 40px">Zo weet je vooraf wat je van mij kan verwachten.</p>
+    <div class="row scope">
+      <div class="card yes">
+        <h3>Wel</h3>
+        <ul>
+          <li>Technische strategie en roadmap</li>
+          <li>Architectuur, schaalbaarheid en security</li>
+          <li>Bouwen of kopen, en leveranciers kiezen</li>
+          <li>Code- en architectuurreviews</li>
+          <li>AI-toepassingen uitwerken en inbouwen, en je team ermee op weg zetten</li>
+          <li>Zelf bouwen, als dat de beste keuze is</li>
+        </ul>
+      </div>
+      <div class="card no">
+        <h3>Niet</h3>
+        <ul>
+          <li>Personeelsbeleid of je IT-team aansturen</li>
+          <li>De dagelijkse projectplanning van je team</li>
+          <li>Commissies van leveranciers: mijn advies is onafhankelijk</li>
+          <li>Kom ik zelf in aanmerking om te bouwen? Dan zeg ik dat vooraf</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projecten -->
+  <section id="projecten" class="band">
+    <div class="container section">
+      <p class="eyebrow">Projecten</p>
+      <h2 class="h2" style="margin-bottom: 44px">Advies dat gebouwd is op echte projecten</h2>
+      <div class="row">
+
+        <article class="card case-featured">
+          <div class="case-intro">
+            <p class="client">Koolmees · sinds 2023</p>
+            <h3>Van spreadsheets naar een digitale logistiek, en een zaakvoerder die zelf automatiseert</h3>
+            <p class="muted">Een langlopend traject waarin elke stap vertrok vanuit de vraag: wat levert het bedrijf het meeste op, met zo weinig mogelijk verstoring van hoe het team werkt?</p>
+          </div>
+          <ol class="timeline">
+            <li>
+              <span class="when">2023</span>
+              <div>
+                <h4>Bestaand pakket of maatwerk?</h4>
+                <p>Samen afgewogen of een bestaand systeem volstond of maatwerk nodig was. De keuze viel op software op maat die diep integreert met de bestaande Google Sheets-werking, zodat het team niet van nul moest herbeginnen.</p>
+              </div>
+            </li>
+            <li>
+              <span class="when">Daarna</span>
+              <div>
+                <h4>Efficiënt orderpicken en realtime stock</h4>
+                <p>Een mobiele app voor het magazijn, waarmee orders sneller en met minder fouten verzameld worden en de stock altijd actueel is.</p>
+              </div>
+            </li>
+            <li>
+              <span class="when">2026</span>
+              <div>
+                <h4>De zaakvoerder aan de slag met AI</h4>
+                <p>Een AI-assistent (Claude) opgezet en gekoppeld aan al zijn tools, en hem met concrete voorbeelden op weg gezet. Zo paste hij intussen zelf de volledige flow voor zijn kassaverkoop aan, met automatisering en zonder ontwikkelaar.</p>
+              </div>
+            </li>
+          </ol>
+        </article>
+
+        <article class="card case">
+          <p class="client">Proview Inspecties · 2026</p>
+          <h3>Van Word, Excel en mappen naar één toepassing</h3>
+          <p>Inspecties liepen via veel manuele stappen in Word, Excel, de Verkenner en Google Agenda. Nu zit alles in één toepassing op maat, met een mobiele app voor op het terrein. Na onderzoek gekozen voor technologie die stabiel werkt in het veld, zodat er geen foto of gegeven verloren gaat.</p>
+        </article>
+
+        <article class="card case">
+          <p class="client">Energieleverancier · via Cogenius</p>
+          <h3>SaaS-platform in een gereguleerde energiemarkt</h3>
+          <p>Een nieuw platform voor de communicatie tussen energieleverancier en netbeheerder, in een markt met strenge eisen rond security en gegevensbescherming. Alle data versleuteld en volgens de best practices van Microsoft Azure opgezet.</p>
+        </article>
+      </div>
+      <p class="also">Verder ook gewerkt voor of bij: Dakwerken Devidt, Jetair/TUI, Codekick en Cogenius.</p>
+    </div>
+  </section>
+
+  <!-- Over mij -->
+  <section id="over" class="container section about">
+    <div class="about-photo">
+      <picture>
+        <source srcset="assets/ivo.webp" type="image/webp">
+        <img src="assets/ivo.jpg" alt="Portret van Ivo Verdonck" width="800" height="800" loading="lazy">
+      </picture>
+    </div>
+    <div class="about-text">
+      <p class="eyebrow">Over mij</p>
+      <h2 class="h2" style="margin-bottom: 22px">Ik ben Ivo Verdonck</h2>
+      <p>Industrieel ingenieur elektronica-ICT, met 15 jaar ervaring in het bouwen van software: van maatwerk voor KMO's tot een SaaS-platform in de energiesector.</p>
+      <p>Mijn sterkte zit in analyseren, verbanden leggen en helder adviseren. Ik zeg je eerlijk wat werkt, wat het kost en waar de risico's zitten, ook als dat betekent dat je iets beter niet bouwt.</p>
+      <p>AI zit vandaag in elke stap van mijn werk. Daardoor lever ik sneller en goedkoper op dan een klassiek traject, en weet ik uit ervaring waar AI wel en niet werkt.</p>
+      <div class="chips">
+        <span>15 jaar ervaring</span>
+        <span>Industrieel ingenieur</span>
+        <span>.NET · Angular · Flutter</span>
+        <span>Microsoft Azure</span>
+        <span>AI-gedreven ontwikkeling</span>
+        <span>Ichtegem · West-Vlaanderen</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="band">
+    <div class="container section faq">
+      <h2 class="h2" style="margin-bottom: 32px">Veelgestelde vragen</h2>
+      <details>
+        <summary>Wat is een fractional CTO?</summary>
+        <p>Een ervaren technisch adviseur die een deel van zijn tijd voor jouw bedrijf werkt. Je krijgt de technische visie van een CTO, zonder de kost van een voltijdse aanwerving.</p>
+      </details>
+      <details>
+        <summary>Moet ik meteen een langdurig traject aangaan?</summary>
+        <p>Nee. De meeste klanten starten met een Tech Audit. Daarna beslis je zelf of en hoe je verder wil.</p>
+      </details>
+      <details>
+        <summary>Werk je samen met mijn huidige leverancier of ontwikkelaar?</summary>
+        <p>Ja. Ik kom niet in hun plaats, maar help jou de juiste vragen te stellen en hun voorstellen te beoordelen.</p>
+      </details>
+      <details>
+        <summary>Wat als ik meer of minder dagen nodig heb?</summary>
+        <p>Dat stemmen we maandelijks af. Het aantal dagen ligt vooraf vast, zodat je nooit voor verrassingen staat.</p>
+      </details>
+      <details>
+        <summary>Werk je ter plaatse of online?</summary>
+        <p>Allebei. De intake en de presentatie doe ik graag bij jou. De analyse en het opvolgoverleg kunnen online.</p>
+      </details>
+      <details>
+        <summary>Hoe snel kan je starten?</summary>
+        <p>Meestal binnen 2 weken na de kennismaking. Je krijgt meteen een concrete planning.</p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+  <div class="container section contact-inner">
+    <div class="contact-main">
+      <h2>Benieuwd waar jouw software staat?</h2>
+      <p class="intro">Plan een vrijblijvende kennismaking van 30 minuten. Kies zelf een moment dat jou past in mijn agenda.</p>
+    </div>
+    <div class="contact-side">
+      <a class="btn btn-light" href="https://cal.com/ivo-verdonck-w8bzwq/30min" target="_blank" rel="noopener">Kies een moment in mijn agenda</a>
+      <p class="small">Liever eerst een vraag stellen? Mail naar <a href="mailto:ivo@verdonck-it.be?subject=Vraag%20Verdonck%20IT">ivo@verdonck-it.be</a>.</p>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Verdonck IT · Ichtegem · BE 1000.339.224</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/ivoverdonck">LinkedIn</a>
+        <a href="privacy-policy.html">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</section>
+
 </body>
 </html>
