@@ -145,7 +145,7 @@ img { max-width: 100%; display: block; }
 .case-featured h3 { font-size: 26px; }
 .timeline { flex: 2 1 480px; min-width: 0; list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 18px; }
 .timeline li { display: flex; gap: 18px; }
-.timeline .when { flex: 0 0 64px; font-family: var(--head); font-weight: 600; color: var(--accent); }
+.timeline .when { flex: 0 0 92px; font-family: var(--head); font-weight: 600; color: var(--accent); }
 .timeline h4 { margin: 0 0 4px; font-size: 17px; }
 .timeline p { color: var(--muted); font-size: 16px; }
 .also { margin-top: 36px; font-size: 15px; color: var(--muted); }
