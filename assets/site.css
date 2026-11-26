@@ -123,6 +123,18 @@ img { max-width: 100%; display: block; }
 .offer .list-label { font-size: 14px; font-weight: 600; color: var(--muted); margin-bottom: -8px; }
 .offer .outcomes { margin-top: 10px; }
 .offer-featured .list-label { color: var(--accent-light); }
+/* Starter */
+.starter { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 32px 48px; align-items: flex-start; padding: 34px; }
+.starter-main { flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+.starter-eyebrow { font-size: 14px; font-weight: 600; color: var(--accent); }
+.starter h3 { font-size: 24px; margin: 0; }
+.starter p { color: var(--muted); font-size: 16px; }
+.starter ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 16px; color: var(--ink); }
+.starter ul li::marker { color: var(--accent); }
+.starter-side { flex: 1 1 240px; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.starter-side .amount { font-size: 24px; font-weight: 600; color: var(--ink); letter-spacing: -0.01em; }
+.starter-side .amount small { font-size: 15px; font-weight: 400; color: var(--muted); }
+.starter-side .note { font-size: 15px; margin-bottom: 12px; }
 .tiers { display: flex; flex-direction: column; gap: 6px; }
 .tier { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; font-size: 16px; }
 .tier strong { font-size: 20px; }
