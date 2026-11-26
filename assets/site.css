@@ -80,6 +80,10 @@ img { max-width: 100%; display: block; }
 .hero h1 { font-size: clamp(36px, 5vw, 54px); line-height: 1.1; letter-spacing: -0.025em; margin-bottom: 24px; max-width: 18ch; }
 .hero .intro { font-size: 19px; color: var(--on-dark-muted); max-width: 620px; margin-bottom: 32px; }
 .hero .independent { font-size: 17px; font-weight: 500; color: #fff; max-width: 620px; margin: -16px 0 32px; }
+.hero .audience-alt { display: inline-block; margin-top: 4px; font-weight: 400; color: var(--on-dark-muted); font-size: 15px; }
+.hero .audience-alt a { color: var(--accent-light); }
+.hero .audience-alt a:hover { color: #fff; }
+#startscan { scroll-margin-top: 90px; }
 .hero .audience { font-size: 16px; font-weight: 500; color: #fff; margin: -12px 0 32px; padding-left: 14px; border-left: 2px solid var(--accent-light); }
 .hero .btn-primary { background: #fff; color: var(--navy); }
 .hero .btn-primary:hover { background: var(--accent-light); color: var(--navy); }
