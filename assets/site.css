@@ -127,6 +127,15 @@ img { max-width: 100%; display: block; }
 .offer .list-label { font-size: 14px; font-weight: 600; color: var(--muted); margin-bottom: -8px; }
 .offer .outcomes { margin-top: 10px; }
 .offer-featured .list-label { color: var(--accent-light); }
+/* Major cases & others */
+.case-major ul { margin: 4px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; color: var(--ink); }
+.case-major ul li::marker { color: var(--accent); }
+.case-major .tech { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--line-soft); font-size: 14px; color: var(--muted); }
+.others { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--line); }
+.others h3 { font-size: 18px; margin-bottom: 14px; }
+.others ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 16px; color: var(--muted); }
+.others strong { color: var(--ink); font-weight: 600; }
+
 /* Starter */
 .starter { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 32px 48px; align-items: flex-start; padding: 34px; }
 .starter-main { flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 14px; }
